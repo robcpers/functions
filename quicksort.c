@@ -1,6 +1,7 @@
 #include "quicksort.h"
 
 // Quicksort function adapted from Marina Marinkovic's MA5613 2016/2017 TCD Dublin
+//	https://www.maths.tcd.ie/~mmarina/c.php
 void 	recursiveSortArray(int *arr, int low, int high){
 	int pivot, i, j, temp;
 	if(low < high){
@@ -41,6 +42,7 @@ void 	quicksortArray(int *arr, int n){
 
 
 // Quicksort function adapted from Marina Marinkovic's MA5613 2016/2017 TCD Dublin
+//	https://www.maths.tcd.ie/~mmarina/c.php
 void 	recursiveSortMatrix(int **A, int cols, int low, int high, int sortCol){
 	int pivot, i, j, temp, loop;
 	if(low < high){

@@ -1,6 +1,7 @@
 /*	Quicksort functions for array and matrix
  *		Matrices can be sorted by any column
  *	Adapted from Marina Marinkovic's MA5613 2016/2017 TCD Dublin
+ *	https://www.maths.tcd.ie/~mmarina/c.php
  */
 
 
